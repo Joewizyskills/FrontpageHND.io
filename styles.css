@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.data-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Style the link */
+.styled-link {
+    text-decoration: none; 
+    color: #0074d9; 
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+    transition: color 0.3s; 
+
+    /* Define hover styles */
+    &:hover {
+        color: #0056b3; /* Change the color on hover */
+    }
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    flex-direction: column;
+}
+
+/* styling to the subheaders */
+.subheading {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+/* styling to the profile picture */
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* styling to the subheadings and image */
+.subheading {
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+.image {
+    max-width: 100%; 
+}
+
+.github-button {
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+/* Style the link inside the button */
+.github-button a {
+    text-decoration: none;
+    color: inherit;
+}
+

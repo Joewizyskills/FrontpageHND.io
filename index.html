@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data HNG</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h1 data-testid="page-title">Personal Data </h1>
+    </header>
+    <main>
+        <section>
+            <h2 data-testid="section-title">Personal Information</h2>
+<div class="data-container">
+    <div>
+        <p class="subheading" data-testid="name-heading">Name</p>
+        <p data-testid="slackUserName">Joseph Gimba</p>
+    </div>
+    <div>
+        <p class="subheading" data-testid="email-heading">Email</p>
+        <p data-testid="email">Joewiskiko@gmail.com</p>
+    </div>
+    <div>
+        <p class="subheading" data-testid="age-heading">Age</p>
+        <p data-testid="age">24 years old</p>
+    </div>
+</div>
+<div class="image-container">
+    <img class="image" src="joewi.jpg" alt="Joewi">
+    <p data-testid="slackDisplayImage"></p>
+</div>
+        </section>
+        <section>
+            <h2 data-testid="section-title">Real-Time Data</h2>
+            <div class="data-container">
+                <div class="data-item">
+                    <h3>Day of the Week</h3>
+                    <p data-testid="currentDayOfTheWeek">Monday</p>
+                </div>
+                <div class="data-item">
+                    <h3>Temperature</h3>
+                    <p data-testid="temperature">25°C</p>
+                </div>
+                <div class="data-item">
+                    <h3>Humidity</h3>
+                    <p data-testid="humidity">50%</p>
+                </div>
+                <div class="data-item">
+                    <h3>Time (UTC)</h3>
+                    <p data-testid="currentUTCTime"></p>
+                </div>
+                <div class="data-item">
+                    <h3>My Track</h3>
+                    <p data-testid="myTrack">Frontend</p>
+                </div>
+                <div class="data-item">
+                    <h3>Github</h3>
+                    <button class="github-button">
+                        <a href="https://github.com/Joewizyskills" target="_blank" rel="noopener noreferrer">
+                            Joewizyskills <i class="fa fa-github"></i>
+                        </a>                    
+                    </button>                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
